@@ -1,3 +1,56 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+
+.anime-filters .filter-box {
+  border-bottom: 1px solid #bfc9d3;
+}
+
+.anime-filters .filter-box .card-header {
+  border-bottom: none;
+  border-radius: 0;
+}
+
+.menu {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.menu li {
+  margin-bottom: 3px;
+}
+
+.menu li > a {
+  color: #464d53;
+  text-decoration: none;
+}
+.menu li > a:hover {
+  color: #ffc107;
+}
+
+.scroll {
+  max-height: 200px;
+  overflow: auto;
+}
+
+.card-header a {
+  text-decoration: none;
+  color: #464d53;
+  font-weight: bold;
+}
+
+.fa-down-long {
+  float: right;
+  font-size: 16px;
+  color: #000;
+  margin-top: 2px;
+}
+
+.checkbox-btn input {
+  opacity: 0;
+}
+
+.checkbox-btn input:checked ~ .btn {
+  background-color: #ffc107;
+}
